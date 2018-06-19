@@ -1,37 +1,136 @@
-<!DOCTYPE html>
-<html>
-<title>W3.CSS</title>
-<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-<style>
-.mySlides {display:none;}
-</style>
-<body>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
-<h2 class="w3-center">Automatic Slideshow</h2>
-
-<div class="w3-content w3-section" style="max-width:500px">
-  <img class="mySlides" src="img_la.jpg" style="width:100%">
-  <img class="mySlides" src="img_ny.jpg" style="width:100%">
-  <img class="mySlides" src="img_chicago.jpg" style="width:100%">
-</div>
-
-<script>
-var myIndex = 0;
-carousel();
-
-function carousel() {
-    var i;
-    var x = document.getElementsByClassName("mySlides");
-    for (i = 0; i < x.length; i++) {
-       x[i].style.display = "none";  
-    }
-    myIndex++;
-    if (myIndex > x.length) {myIndex = 1}    
-    x[myIndex-1].style.display = "block";  
-    setTimeout(carousel, 2000); // Change image every 2 seconds
-}
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=iso-8859-1" />
+	<meta name="author" content="komquest" />
+    <link href="css/style.css" rel="stylesheet" type="text/css" />
+	<title>Hassan A.Al Aithan Gen Cont Est</title>
+	
+	<meta name="google-site-verification" content="z3OCeWnd4uounLE3GXWm4S6UTj_HoDK0Z84kw00claM" />
+	
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/jquery.simplyscroll.css" media="all" type="text/css" />   
+    <link rel="shortcut icon" href="images/favicon.png"/> 
+<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.5/jquery.min.js"></script>       
+<script type="text/javascript" src="js/jquery.simplyscroll.js"></script>
+<script type="text/javascript">
+(function($) {
+	$(function() {
+		$("#scroller").simplyScroll();
+	});
+})(jQuery);
 </script>
+</head>
+<body>
+<div class="header home_header">    
+ <div class="logo"><a href="index.php"><img alt=""  src="images/logo.png" /></a></div>
+ <div class="menu">
+ <ul>
+  <li class="active"><a href="index.php">Home</a></li>
+  <li><a href="about.php">Profile</a></li> 
+  <li><a href="works.php">Works</a></li>
+  <li><a href="divisions.php">Divisions</a></li> 
+  <li><a href="clients.php">Clients</a></li>
+  <li class="last"><a href="contact.php">Contact Us</a></li>
+ </ul>
+ </div>
+ <div class="clear"></div>
+ </div>
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+               <img alt=""  src="images/slider1.jpg" /> 
+               <img alt="" src="images/slider2.jpg" />     
+               <img alt=""  src="images/slider3.jpg" /> 
+               <img alt="" src="images/slider4.jpg" />  
+               <img alt="" src="images/slider5.jpg" />           
+            </div>
+        </div>   
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() { 
+         $('#slider').nivoSlider({
+        effect:'boxRainReverse'
+    });
+    });
+    </script>    
+ <div class="wrapper"> 
+ <ul class="list">
+	<li><a href="divisions_inner.php#view5"><img alt=""  src="images/Scaffolding.png" /></a></li>
+	<li><a href="divisions_inner.php#view2"><img alt=""  src="images/Civil construction division.png" /></a></li>
+	<li><a href="divisions_inner.php#view6"><img alt=""  src="images/Equipment Rental.png" /></a></li>									
+	<li><a href="divisions_inner.php#view1"><img alt=""  src="images/Manpower.png" /></a></li> 
+ </ul>
+ <div class="clear"></div>
+ <br />
+ <img src="images/quality.jpg" class="left_img" />
+ <div class="img_content">
+ <img src="images/abt.jpg" alt="" />
+ <h1>Hassan  <br /> A.Al Aithan Gen Cont Est. </h1>
+ <p> AL-AITHAN was established in 1998 as a contracting establishment, Saudi owned company. We are a team of technically qualified engineers, 
+ from the different parts of the world.  <br /> Our main business is to direct towards the electrical, civil construction, mechanical erection and also in the areas of the oil refineries, petrochemical plants, dewatering services, steel plants, fertilizer plants. 
+ </p>
+ </div> 
+ <div class="scroll_content">
+ <h1>Clients</h1>
+ <div class="line"></div>
+ <ul id="scroller">
+	<li id="image1"><img  alt=""  src="images/scroll/1.png" /></li>
+	<li><img alt=""  src="images/scroll/2.png" /></li>
+	<li><img alt=""  src="images/scroll/3.png" /></li>
+    <li><img alt=""  src="images/scroll/4.png" /></li>
+	<li><img alt=""  src="images/scroll/5.png" /></li>
+    <li><img alt=""  src="images/scroll/6.png" /></li>
+	<li><img alt=""  src="images/scroll/7.png" /></li>
+ </ul>
+ </div>
+ <div class="clear"></div>
+ <div class="clear"></div>
+ <div class="footer_block">
+    <div class="col3 col"> 
+        <h3>Clients</h3>
+          <img alt="" src="images/clients1.jpg" />
+          <img alt="" src="images/clients2.jpg" />
+        </div>
+        
+        <div class="col2 col">
+        <h3> &nbsp; </h3>
+             <p> Phone : +966 3 363 5236 (Jubail) <br />
+             Fax : +966 3 363 5235 <br /> 
+             Email : info@aithan.net <br /> </p>
+        </div>
+
+        <div class="col4 col">
+        <h3>WHO ARE WE </h3>
+        <p>
+        A Saudi owned RMA company was established in 1998 as a contracting establishment company managed by qualified engineers from different parts of the world. Al Aithan specialized in
+electrical, civil construction, mechanical erection and also in the areas of the oil refineries, petrochemical plants, dewatering services, steel plants, fertilizer plants for many years.
+        </p>        
+        </div>         
+        <div class="clear"></div> 
+        
+        <div id="copyright">
+        <p>  All Rights Reserved  &copy; 2015, RMA<br /> 
+       
+        
+        <ul> <li><a href="index.php">Home</a></li>
+    <li><a href="about.php">Profile</a></li> 
+  <li><a href="works.php">Works</a></li>
+  <li><a href="divisions.php">Divisions</a></li> 
+  <li><a href="clients.php">Clients</a></li>
+  <li class="last"><a href="contact.php">Contact Us</a></li>
+  </ul>  <div class="clear"></div> 
+        </div>     
+        <div class="clear"></div> 
+       
+        </div>  
+ </div>
 
 </body>
 </html>
