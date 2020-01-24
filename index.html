@@ -1,906 +1,689 @@
-
 <!DOCTYPE html>
+<html lang="en">
+
 <head>
-	<!-- Basic Meta Tags -->
-  <meta charset="utf-8">
-  <title>Industrial Cadre for Operation and Maintenance - ICOM</title>
-	<meta name="description" content="ICOM - industrial operations and Maintenance">
-	<meta name="keywords" content="industrial, operation, maintenance, hydrojetting, vacuming, industrial cleaning, fabrication, retubing, plant maintenance">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!--[if (gte IE 9)|!(IE)]>
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta http-equiv="Content-Type" content="text/html;charset=utf-8">
-  <![endif]--> 
-<link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.6.3/css/font-awesome.min.css">
-  <!-- Favicon -->
-  <link href="img/icom.png" rel="icon" type="image/png">
 
-  <!-- Styles -->
-  <link href="css/styles.css" rel="stylesheet">
-  <link href="css/bootstrap-override.css" rel="stylesheet">
- 
-  
-  <!-- Font Avesome Styles -->
-  <link href="css/font-awesome/font-awesome.css" rel="stylesheet">
-	<!--[if IE 7]>
-		<link href="css/font-awesome/font-awesome-ie7.min.css" rel="stylesheet">
-	<![endif]-->
 
-  <!-- FlexSlider Style -->
-  
-  <link rel="stylesheet" href="css/flexslider.css" type="text/css" media="screen">
 
-	<!-- Internet Explorer condition - HTML5 shim, for IE6-8 support of HTML5 elements -->
-	<!--[if lt IE 9]>
-		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
-	<![endif]-->   
-	<meta name="viewport" content="width=device-width, initial-scale=1">
-<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-</head>   
-<style>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <link rel="icon" type="image/png" href="./assets/img/favicon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
 
-#myImg {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-   
-}
-#myImg_gas {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-#myImg_safco {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-#myImg_hadeed {
-    border-radius: 5px;
-    cursor: pointer;
-    transition: 0.3s;
-}
-#myImg:hover {opacity: 0.7;}
-#myImg_gas:hover {opacity: 0.7;}
-#myImg_hadeed:hover {opacity: 0.7;}
-#myImg_safco:hover {opacity: 0.7;}
+    <title>
 
-/* The Modal (background) */
-.modal {
-    display: none; /* Hidden by default */
-    position: fixed; /* Stay in place */
-    z-index: 1; /* Sit on top */
-    padding-top: 100px; /* Location of the box */
-    left: 0;
-    top: 0;
-    width: 100%; /* Full width */
-    height: 100%; /* Full height */
-    overflow: auto; /* Enable scroll if needed */
-    background-color: rgb(0,0,0); /* Fallback color */
-    background-color: rgba(0,0,0,0.9); /* Black w/ opacity */
-    
-}
 
-/* Modal Content (image) */
-.modal-content {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-}
 
-/* Caption of Modal Image */
-#caption {
-    margin: auto;
-    display: block;
-    width: 80%;
-    max-width: 700px;
-    text-align: center;
-    color: #ccc;
-    padding: 10px 0;
-    height: 150px;
-}
 
-/* Add Animation */
-.modal-content, #caption {    
-    -webkit-animation-name: zoom;
-    -webkit-animation-duration: 0.6s;
-    animation-name: zoom;
-    animation-duration: 0.6s;
-}
 
-@-webkit-keyframes zoom {
-    from {-webkit-transform: scale(0)} 
-    to {-webkit-transform: scale(1)}
-}
 
-@keyframes zoom {
-    from {transform: scale(0.1)} 
-    to {transform: scale(1)}
-}
 
-/* The Close Button */
-.close {
-    position: absolute;
-    top: 15px;
-    right: 35px;
-    color: #f1f1f1;
-    font-size: 40px;
-    font-weight: bold;
-    transition: 0.3s;
-}
+        Engr. Anis Uz Zaman | Portfolio
 
-.close:hover,
-.close:focus {
-    color: #bbb;
-    text-decoration: none;
-    cursor: pointer;
-}
 
-/* 100% Image Width on Smaller Screens */
-@media only screen and (max-width: 700px){
-    .modal-content {
-        width: 100%;
-    }
-}
-#background {
-    position: fixed;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url('img/icom-bg.png');
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: 100%;
-    opacity: 0.8;
-    filter:alpha(opacity=80);
-}
-#bd{
-	border:2px;
-	color:red;
-}
-</style> 
-<script type="text/javascript">
-        function zoom() {
-            document.body.style.zoom = "90%" 
-        }
-</script>   
-<body onload="zoom()">
-<div id="background"></div>
-  <!-- Header -->
-   <header id="header">
-    <div class="container">
-      <div class="row t-container">
 
-        <!-- Logo -->
-        <div class="span3">
-          <div class="logo">
-            <a href="index.php"><img src="img/icom logo.png" alt="ICOM"></a>
-          </div>            
-        </div>
-      <br> <br> 
-        <div class="span9">
-          <div class="row space60">
-		  <div style="float:right; font-size:13px; color:black;"><b><font face="verdana"  color="#FF8D33">Business Enquiry:  +966 58 161 0540 <br> Mail us - <a href="mailto:info@icomksa.com" style="color:#FF8D33;">info@icomksa.com</a></font></b></a></div>
-<div style="float:right; padding-right:20px;"class="span2">
-         <img src="img/icom_iso.jpg">
-		 </div>
-		  </div>
-             <nav id="nav" role="navigation">
-               	<a href="#nav" title="Show navigation">Show navigation</a>
-	            <a href="#" title="Hide navigation">Hide navigation</a>
-	            <ul class="clearfix">
-	           	<li class="active"><a href="index.php" title="">Home</a></li>
-                <li><a href="#"><span>About Us</span></a>
-				<ul>
-                 <li><a href="introduction.php" title="">Introduction</a></li>
-                 <li><a href="vision.php" title="">Mission & Vision</a></li>
-				</ul>
-				</li>  
-				 <li><a href="#" title=""><span>Corporate Compliance</span></a>
-				<ul>
-                 <li><a href="qc.php" title="">Quality Policy</a></li>
-                 <li><a href="icom-safety-policy.php" title="">Safety Policy</a></li>
-				<!--<li><a href="gallery.php#hydrojetting" title="">Gallery</a></li>-->
-				</ul>
-				</li>
-                <li><a href="#" title=""><span>Services</span></a>
-				<ul>
-				<li><a href="industrial-cleaning.php" title="">Industrial Cleaning</a></li>
-                 <li><a href="mech-fabrication.php" title="">Fabrication</a></li>
-                <li><a href="icom-specialized-services.php" title="">Specialized Services</a></li>
-                <li><a href="plant-maintenance.php" title="">Plant Maintenence</a></li>
-                <li><a href="trunaround-shutdown.php" title="">Turnaround & Shutdown</a></li>
-                <li><a href="icom-equipment.php" title="">Equipment Rental</a></li>
-				</ul>
-				</li>			
-                
-				 <!--<li><a href="contact.php" title="">Contact</a></li>-->
-                <li><a href="contact.php" title="">Contact Us</a></li>
-  			     <!-- <ul> 
-                      <li><a href="safety.php" title="">ICOM Awards</a></li>
-                      <!--<li><a href="blog.php" title="">Blog</a></li>
-                      <li><a href="blog-detail.php" title="">Blog Detail</a></li>
-                      <li><a href="contact.php" title="">Contact</a></li>
-  		         </ul>  -->     
-               </li>
-	           </ul>
-          </nav>
-         </div> 
+    </title>
 
-      </div> 
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no'
+        name='viewport' />
 
-	   
-	   <!--<marquee  style="background-color:#FF8D33"; direction="left">ICOM Workshop Approvid By Saudi Aramco</marquee>-->
-          <div class="slider1 flexslider">  <!-- Slider -->
-            <ul class="slides">
-					 <li>
-    	    	    <img src="img/slider/icom workshop final.jpg" alt="">
-    	    		</li>
-    	    		<li>
-    	    	    <img src="img/slider/icomteamfinal.png" alt="">
-    	    		</li>
-    	    		<li>
-    	    	    <img src="img/slider/icom-equipment.png" alt="">
-    	    		</li>
-					 <li>
-    	    	    <img src="img/slider/icom-equipment1.png" alt="">
-    	    		</li>
-                        <li>
-    	    	    <img src="img/slider/ICOM jubail.png" alt="">
-    	    		</li>
-                    <li>
-    	    	    <img src="img/slider/4.jpg" alt="">
-    	    		</li>
-            </ul>
-          </div>  <!-- Slider End -->
-  </div> 
-</header>
-   <!-- Header End -->
-  <!-- Content -->
-  <div id="content">
-    <div class="container">
-       <div class="f-center">
-	   <!--<marquee scrollamount="5" width="40">&lt;&lt;&lt;</marquee>Opposite Direction Marquees<marquee scrollamount="5" direction="right" width="40">&gt;&gt;&gt;</marquee>-->
-               <p  style="color:#FF8D33; font-size:30px;"><font face="verdana" color="#FF8D33">Welcome to</font></p> 		
-              <p style="color:#FF8D33; font-size:30px;"> <font face="verdana" color="#FF8D33">Industrial Cadre for Operation & Maintenance(ICOM)</font></p>
-              <div class="head-info">
-                <font face="verdana" color="black">ICOM is an ISO 9001-2008 Certified company which is specialized in the multiple aspects of Industrial Operation & Maintenance Services. ICOM offers its safe & quality services to Oil & Gas, Petro-chemical, Power & Energy, Fertilizers and Metal Plants. Our establishment is strategically located in Jubail Industrial 2 Saudi Arabia. Our facility is located on 50,000 sqm area which is equipped with state-of-the-art equipment & latest technology.</font>
-                
-            </div>  
-       </div>
-        
-      <div class="row">
-        <div class="span12">
-		  
-  <!-- Our Serviecs-->    
-   <!-- Our Team -->      
-         <!--<h3 style="color:#FF8D33;">Our Achievements</h3>
-                
-          <div class="w3-row-padding">
-              
-  <div class="w3-container w3-third">
-    <a href="#"><img src="img/our-team/1.jpg" style="width:100%;cursor:pointer" 
-    onclick="onClick(this)" class="w3-hover-opacity"></a>
-  </div>
-  <div class="w3-container w3-third">
-    <img src="img/our-team/1.jpg" style="width:100%;cursor:pointer" 
-    onclick="onClick(this)" class="w3-hover-opacity">
-  </div>
-  <div class="w3-container w3-third">
-    <img src="img/our-team/1.jpg" style="width:100%;cursor:pointer" 
-    onclick="onClick(this)" class="w3-hover-opacity">
-  </div>
-  
-</div>
 
-<div id="modal01" class="w3-modal" onclick="this.style.display='none'">
-  <span class="w3-button w3-hover-red w3-xlarge w3-display-topright">&times;</span>
-  <div class="w3-modal-content w3-animate-zoom">
-    <img id="img01" style="width:100%">
-  </div>
-</div>
+    <!-- Extra details for Live View on GitHub Pages -->
+    <!-- Canonical SEO -->
+    <link rel="canonical" href="https://www.creative-tim.com/product/now-ui-kit-pro" />
 
-<script>
-function onClick(element) {
-  document.getElementById("img01").src = element.src;
-  document.getElementById("modal01").style.display = "block";
-}
-</script>-->
-             
-              <h3 style="color:#FF8D33;">Client Appreciation</h3>
-       <!--   <div>
-                <div class="row">
-                  <a href="#">
-                    <div class="span3 square-1">
-                      <div class="img-container">
-                        <img src="img/our-team/ICOM_JANA.jpg" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                      <p>JANA CHEMICAL</p>
-                    </div>
-                 
-                  
-                  <a href="#">
-                    <div class="span3 square-1">
-                      <div class="img-container">
-                        <img src="img/our-team/SAFCO.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                      <p>SAFCO</p>
-                    </div>
-                  
-                  
-                  <a href="#">
-                    <div class="span3 square-1">
-                      <div class="img-container">
-                        <img src="img/our-team/ICOM_SABIC GAS.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                      <p>SABIC GAS</p>
-                    </div>
-                  
-                  
-                  <a href="#">
-                    <div class="span3 square-1">
-                      <div class="img-container">
-                        <img src="img/our-team/ICOM_SABIC HADEED.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                      <p>SABIC HADEED</p>
-                    </div>
-                </div> 
-             
-          </div>-->
-        <div class="row">
-              <div class="span3">
-			    <img id="myImg" src="img/our-team/ICOM_JANA.jpg" alt="" width="200" height="200">
-			     <b><center>JANA CHEMICAL</center></b>
-				<div id="myModal" class="modal">
-				  <span class="close">×</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption"></div>
-				</div>
-				<script>
-				// Get the modal
-				var modal = document.getElementById('myModal');
 
-				// Get the image and insert it inside the modal - use its "alt" text as a caption
-				var img = document.getElementById('myImg');
-				var modalImg = document.getElementById("img01");
-				var captionText = document.getElementById("caption");
-				img.onclick = function(){
-					modal.style.display = "block";
-					modalImg.src = this.src;
-					captionText.innerHTML = this.alt;
-					
-				}
+    <!--  Social tags      -->
+    <meta name="keywords"
+        content="bootstrap 4, bootstrap 4 uit kit, bootstrap 4 kit, now ui, now ui kit, creative tim, html kit, html css template, web template, bootstrap, bootstrap 4, css3 template, frontend, responsive bootstrap template, bootstrap ui kit, responsive ui kit, premium bootstrap 4 ui kit, premium template, bootstrap 4 template">
+    <meta name="description"
+        content="Saudi Chemical Engr and Project Manager">
 
-				// Get the <span> element that closes the modal
-				var span = document.getElementsByClassName("close")[0];
 
-				// When the user clicks on <span> (x), close the modal
-				span.onclick = function() { 
-					modal.style.display = "none";
-				}
-				</script>
-			</div>
-			 <div class="span3">
-			    <img id="myImg_gas" src="img/our-team/ICOM_SABIC GAS.png" alt="" width="200" height="200">
-			    <b><center>SABIC GAS</center></b>
-				<div id="myModal" class="modal">
-				  <span class="close">×</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption"></div>
-				</div>
-				<script>
-				// Get the modal
-				var modal = document.getElementById('myModal');
+    <!-- Schema.org markup for Google+ -->
+    <meta itemprop="name" content="Engr. Anis Uz Zaman | Portfolio">
+    <meta itemprop="description"
+        content="Saudi Chemical Engr and Project Manager">
 
-				// Get the image and insert it inside the modal - use its "alt" text as a caption
-				var img = document.getElementById('myImg_gas');
-				var modalImg = document.getElementById("img01");
-				var captionText = document.getElementById("caption");
-				img.onclick = function(){
-					modal.style.display = "block";
-					modalImg.src = this.src;
-					captionText.innerHTML = this.alt;
-				}
+    <meta itemprop="image" content="https://s3.amazonaws.com/creativetim_bucket/products/62/opt_nudp_thumbnail.jpg">
 
-				// Get the <span> element that closes the modal
-				var span = document.getElementsByClassName("close")[0];
 
-				// When the user clicks on <span> (x), close the modal
-				span.onclick = function() { 
-					modal.style.display = "none";
-				}
-				</script>
-			</div>
-				<div class="span3">
-			 <img id="myImg_hadeed" src="img/our-team/ICOM_SABIC HADEED.png" alt="" width="200" height="200">
-			 <b><center>SABIC HADEED</center></b>
-				<div id="myModal" class="modal">
-				  <span class="close">×</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption"></div>
-				</div>
-				<script>
-				// Get the modal
-				var modal = document.getElementById('myModal');
-				// Get the image and insert it inside the modal - use its "alt" text as a caption
-				var img = document.getElementById('myImg_hadeed');
-				var modalImg = document.getElementById("img01");
-				var captionText = document.getElementById("caption");
-				img.onclick = function(){
-					modal.style.display = "block";
-					modalImg.src = this.src;
-					captionText.innerHTML = this.alt;
-				}
+    <!-- Twitter Card data -->
+    <meta name="twitter:card" content="product">
+    <meta name="twitter:site" content="@creativetim">
+    <meta name="twitter:title" content="Engr. Anis Uz Zaman | Portfolio">
 
-				// Get the <span> element that closes the modal
-				var span = document.getElementsByClassName("close")[0];
+    <meta name="twitter:description"
+        content="Saudi Chemical Engr and Project Manager">
+    <meta name="twitter:creator" content="@creativetim">
+    <meta name="twitter:image" content="https://s3.amazonaws.com/creativetim_bucket/products/62/opt_nudp_thumbnail.jpg">
 
-				// When the user clicks on <span> (x), close the modal
-				span.onclick = function() { 
-					modal.style.display = "none";
-				}
-				</script>
-			</div>
-				<div class="span3">
-			 <img id="myImg_safco" src="img/our-team/SAFCO.png" alt="" width="200" height="200">
-             <b><center>SABIC SAFCO</center></b>
 
-				<div id="myModal" class="modal">
-				  <span class="close">×</span>
-				  <img class="modal-content" id="img01">
-				  <div id="caption"></div>
-				</div>
+    <!-- Open Graph data -->
+    <meta property="fb:app_id" content="655968634437471">
+    <meta property="og:title" content="Engr. Anis Uz Zaman | Portfolio" />
+    <meta property="og:type" content="article" />
+    <meta property="og:url" content="https://demos.creative-tim.com/now-ui-kit/index.html" />
+    <meta property="og:image"
+        content="https://s3.amazonaws.com/creativetim_bucket/products/62/opt_nudp_thumbnail.jpg" />
+    <meta property="og:description"
+        content="Saudi Chemical Engr and Project Manager" />
+    <meta property="og:site_name" content="Creative Tim" />
 
-				<script>
-				// Get the modal
-				var modal = document.getElementById('myModal');
 
-				// Get the image and insert it inside the modal - use its "alt" text as a caption
-				var img = document.getElementById('myImg_safco');
-				var modalImg = document.getElementById("img01");
-				var captionText = document.getElementById("caption");
-				img.onclick = function(){
-					modal.style.display = "block";
-					modalImg.src = this.src;
-					captionText.innerHTML = this.alt;
-				}
 
-				// Get the <span> element that closes the modal
-				var span = document.getElementsByClassName("close")[0];
 
-				// When the user clicks on <span> (x), close the modal
-				span.onclick = function() { 
-					modal.style.display = "none";
-				}
-				</script>
+    <!--     Fonts and icons     -->
 
-							
-			</div>
-          </div>  
-          
-           <div class="row"> 
-            <div class="span6">
-              <h3>Recent Projects</h3>
-            
-              <div class="slider2 flexslider">
-                <ul class="slides">
-                  <li>
-                    <img src="img/gallery/04.jpg" alt="">
-                	</li>
-                	<li>
-                    <img src="img/gallery/02.jpg" alt="">
-                	</li>
-                	<li>
-                    <img src="img/gallery/07.jpg" alt="">
-                  </li>
-                </ul>
-              </div>          
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200|Open+Sans+Condensed:700"
+        rel="stylesheet">
+
+    <!-- <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous"> -->
+    <script src="https://kit-pro.fontawesome.com/releases/v5.10.1/js/pro.min.js" data-auto-fetch-svg></script>
+
+    <!-- G fonts -->
+
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:600&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Fredoka+One&display=swap" rel="stylesheet">
+
+    <!-- CSS Files -->
+
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+
+    <link href="./assets/css/now-ui-kit.min.css?v=1.3.1" rel="stylesheet" />
+    <link href="./assets/css/style.css" rel="stylesheet" />
+    <!-- <link href="./assets/css/pfawsm.min.css" rel="stylesheet" /> -->
+
+
+
+
+
+</head>
+
+<body class="sections-page sidebar-collapse">
+
+
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top ">
+        <div class="container">
+
+
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="https://demos.creative-tim.com/now-ui-kit-pro/index.html" rel="tooltip"
+                    title="Designed by Invision. Coded by Creative Tim" data-placement="bottom" target="_blank">
+                    Engr. Anis Uz Zaman
+                </a>
+
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation"
+                    aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar top-bar"></span>
+                    <span class="navbar-toggler-bar middle-bar"></span>
+                    <span class="navbar-toggler-bar bottom-bar"></span>
+                </button>
             </div>
-         
-            <div class="span6">
-              <h3>Testimonials</h3>
-            
-              <div class="slider2 flexslider">
-                <ul class="slides">
-                  <li>
-                    <!--<div class="testimonials">
-                      1 De nombreuses suites logicielles consequat porttitor tincidunt. Praesent eu tincidunt lacus. Donec ut neque vitae erat congue venenatis. Duis hendrerit lacinia leo in dignissim. Aliquam erat volutpat. Sed dignissim hendrerit nibh, quis faucibus erat cursus eget. Plum liquorice cookie ice cream caramels oat cake dragée. Integer porta nisl vitae felis rutrum ut mollis felis congue. de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, etina une recherche pour 'Lorem Ipsum' vous conduira vers de asolen nombreux sites qui n'en sont encore qu'à leur phase de. 
-                      <br /><br />
-                      <strong>Marco Derianti</strong><br />
-                      software developer
-                    </div>-->
-                	</li>
-                	<li>
-                    <!--<div class="testimonials">
-                      2 De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, etina une recherche pour 'Lorem Ipsum' vo consequat porttitor tincidunt. Praesent eu tincidunt lacus. Donec ut neque vitae erat congue venenatis. Duis hendrerit lacinia leo in dignissim. Aliquam erat volutpat. Sed dignissim hendrerit nibh, quis faucibus erat cursus eget. Plum liquorice cookie ice cream caramels oat cake dragée. Integer porta nisl vitae felis rutrum ut mollis felis congue.us conduira vers de asolen nombreux sites qui n'en sont encore qu'à leur phase de. 
-                      <br /><br />
-                      <strong>Bertocucci Feranzano</strong><br />
-                      assistent
-                    </div>-->
-                	</li>
-                	<li>
-                   <!-- <div class="testimonials">
-                      3 De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, etina une recherche pour 'Lorem Ipsum' vous conduira vers de asolen nombreux sites qui n'en s consequat porttitor tincidunt. Praesent eu tincidunt lacus. Donec ut neque vitae erat congue venenatis. Duis hendrerit lacinia leo in dignissim. Aliquam erat volutpat. Sed dignissim hendrerit nibh, quis faucibus erat cursus eget. Plum liquorice cookie ice cream caramels oat cake dragée. Integer porta nisl vitae felis rutrum ut mollis felis congue.ont encore qu'à leur phase de. 
-                      <br /><br />
-                      <strong>Dr. Kozmold</strong><br />
-                      producer
-                    </div>-->
-                  </li>
-                	<li>
-                    <!--<div class="testimonials">
-                      4 De nombreuses suites logicielles de mise en page ou éditeurs de sites Web ont fait du Lorem Ipsum leur faux texte par défaut, etina une recherche pour 'Lorem Ipsum' vous conduira vers de asolen nombreux sites qui n'en sont encore qu consequat porttitor tincidunt. Praesent eu tincidunt lacus. Donec ut neque vitae erat congue venenatis. Duis hendrerit lacinia leo in dignissim. Aliquam erat volutpat. Sed dignissim hendrerit nibh, quis faucibus erat cursus eget. Plum liquorice cookie ice cream caramels oat cake dragée. Integer porta nisl vitae felis rutrum ut mollis felis congue.'à leur phase de. 
-                      <br /><br />
-                      <strong>Pineapple Jack</strong><br />
-                      project manager
-                    </div>-->
-        	    		</li>
-                </ul>
-              </div>          
-            </div>
-          </div>   
-          
-          <!-- Our Team End -->      
-          
-          <h3 style="color:#FF8D33;">ICOM Services</h3>   
-          <div  class="slider2 team flexslider">
-            <ul class="slides">
-              <li>
-                <div class="row">
-                                  
-                  <a href="http://www.icomksa.com/industrial-cleaning.php">
-                    <div class="span4 square-3">
-                      <div class="img-container">
-                        <img src="img/our-team/15.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div>
-					  </a>
-                        <a href="http://www.icomksa.com/industrial-cleaning.php"><h4 style="color:#FF8D33;">Industrial Cleaning</h4></a>
-                          <font face="verdana" color="black">
-						 
-            <ul>
-              <!-- List Items -->
-              <li> High Pressure Water Blasting</li>
-              <li> Boiler Cleaning</li>
-              <li> Liquid Vacuuming</li>
-              <li> Dry Product Removal</li>
-              <li> Tank & Pipe Cleaning</li>
-              <li> Waste Disposal Transportation</li>
-              <li> Chemical Cleaning</li>
-              <li> Mechanical Cleaning</li>
-			  <br>
-            </ul>     
-          
-						  </font>
-                    </div>
-					
-					 <a href="http://www.icomksa.com/mech-fabrication.php">
+
+            <div class="collapse navbar-collapse" data-nav-image="./assets/img//blurred-image-1.jpg"
+                data-color="orange">
+                <ul class="navbar-nav ml-auto">
+
+
+                    <li class="nav-item dropdown">
+                        <a href="./index.html#home" class="nav-link" id="navbarDropdownMenuLink1" data-toggle="dropdown">
+                            <i class="now-ui-icons design_app"></i>
+                            <p>Home</p>
+                        </a>
+                    </li>
+                    <li class="nav-item dropdown">
+                            <a href="./index.html#aboutme" class="nav-link" >
+                                <i class="now-ui-icons design_app"></i>
+                                <p>About Me</p>
+                            </a>
+                        </li>
+                        <li class="nav-item dropdown">
+                                <a href="./index.html#achievement" class="nav-link">
+                                    <i class="now-ui-icons design_app"></i>
+                                    <p>Achievement</p>
+                                </a>
+                            </li>
+                        <li class="nav-item dropdown">
+                                <a href="./index.html#credentials" class="nav-link">
+                                    <i class="now-ui-icons design_app"></i>
+                                    <p>Credentials</p>
+                                </a>
+                            </li>
+
                     
-             <div class="span4 square-3">
-                      <div class="img-container">
-                        <img src="img/our-team/fabrication.jpg" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div>
-					  </a>
-                      <a href="http://www.icomksa.com/mech-fabrication.php"><h4 style="color:#FF8D33;">Fabrication</h4></a>
-                           <font face="verdana" color="black">
-						  
-            <ul>
-              <!-- List Items -->
-			  <li> Piping Spools Fabrication</li>
-			  <li> Piping Fabrication & Erection for Brown & Green Field</li>
-              <li> Steel Structures Fabrication & Erection</li>
-              <li> Passivation of Equipment and Piping</li>
-              <li> Equipment Erection & Installation</li>
-              <li> Piping Modification/Retrofit, Up-gradation & Tie-Ins</li>
-              <li> Skids Fabrication</li>
-			    <li> Sand Blasting & Painting</li>
-              <br>
-			   
-            </ul>     
-          
-						   
-						   </font>
-                    </div>
-                  <a href="http://www.icomksa.com/plant-maintenance.php">
-                    <div class="span4 square-3">
-                      <div class="img-container">
-                        <img src="img/our-team/18.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div>
-					   </a>
-                     <a href="http://www.icomksa.com/plant-maintenance.php"><h4 style="color:#FF8D33;">Plant Maintenance</h4></a>
-                          <font face="verdana" color="black">
-						  
-						   
-            <ul>
-              <!-- List Items -->
-              <li> Heat Exchanger Maintenance</li>
-              <li> Column Revamp & Replacement of Trays/Internal</li>
-              <li> Pipelines, Valves Maintenance/Modification</li>
-              <li> Tank Maintenance, Bottom Change Out & Repairs</li>
-              <li> Internal Cleaning & Repair Services for Columns & Reactors</li>
-              <li> Blinding & De-blinding of Equipment</li>
-              <li> Hydrotesting</li>
-            </ul>     
-          
-						  </font>
-						 
-                    </div>
-                   <!-- <a href="http://localhost/http://www.icomksa.com/gallery.php#bundle">
-                    <div class="span3 square-1">
-                     <div class="img-container">
-                        <img src="img/our-team/13.jpg" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div> </a>
-                      <a href="http://localhost/http://www.icomksa.com/bundle-puller.php"><h4 style="color:#FF8D33;">Bundle Pulling And Installation</h4></a>
-					 
-                      <font face="verdana" color="green">ICOM Areal Mounted Bundle Puller (hydraulic bundle extractor) is suitable for lifting maximum of 60 ton with a diameter upto 2 meters. <a href="http://localhost/http://www.icomksa.com/bundle-puller.php" style="color:green; font-face:verdana;"><strong>click more</strong></a></font>
-				    </div> -->
-                </div> 
-              </li>
-             
-            </ul>
-          </div>
-          <!-- Our Serviecs End -->   
-          <!-- Our Serviecs-->            
-          <div  class="slider2 team flexslider">
-            <ul class="slides">
-              <li>
-                <div class="row">             
-                  <a href="http://www.icomksa.com/icom-specialized-services.php">
-                   <div class="span4 square-3">
-                      <div class="img-container">
-                        <img src="img/our-team/icom-tank icom pipe cleaning.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div>
-					  </a>
-                      <a href="http://www.icomksa.com/icom-specialized-services.php"><h4 style="color:#FF8D33;">Specialized Services</h4></a>
-                         <font face="verdana" color="black">
-						 
-						  <ul>
-              <!-- List Items -->
-              <li> Catalyst Handling</li>
-              <li> Bundle Pulling & Installation</li>
-              <li> Heat Exchanger Re-Tubing</li>
-			
-              <li> Tank & Pipe Cleaning</li>
-              <li> Pre-commissioning & Commissioning</li>
-			  <li> Valve Testing Calibration and Maintenance</li> 
-            </ul> 
-			
-						 </font>
-                    </div>
-                 
-                  <a href="http://www.icomksa.com/trunaround-shutdown.php">
-                    <div class="span4 square-3">
-                      <div class="img-container">
-                        <img src="img/our-team/Plant-Turnaround.jpg" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                     <a href="http://www.icomksa.com/trunaround-shutdown.php"><p style="color:#FF8D33; font-size:20px;">Turnaround and Shutdown</p></a>
-					  
-                          <font face="verdana" color="black">
-						 
-						 
-              <!-- List Items -->
-              <p> ICOM is fully equipped with all required resources to complete the turnaround or shutdown work. Commitment to complete the project on time is one of the ICOM's strength. Having experienced and skilled Turnaround Planning , Turnaround Management & Turnaround Execution teams have made ICOM separate from others.</p>
-             
-           
-			
-						 </font>
-                    </div>
-                 
-                  <a href="http://www.icomksa.com/icom-equipment.php">
-                    <div class="span4 square-3">
-                      <div class="img-container">
-                        <img src="img/our-team/icom-rental-equipment.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                      <a href="http://www.icomksa.com/icom-equipment.php"><p style="color:#FF8D33; font-size:20px;">Equipment Rental</p></a>
-					  
-                        <font face="verdana" color="black">
-						 
-						 
-              <!-- List Items -->
-              <p> We offer rental of Industrial Support equipment which are duly certified by Third Party. Super Suckers, Vacuum Trucks, Bundle Puller, Hydro-jetting Machines, Tower Lights, Trailers, Welding Machines, Air Compressors etc.</p>
-              <p> Manpower can be supplied also as per client requirement along with Equipment.</p>
-       
-			
-						 </font>
-                    </div>
-                  
-                 <!-- <a href="http://localhost/http://www.icomksa.com/gallery.php#blasting">
-                    <div class="span4 square-1">
-                      <div class="img-container">
-                        <img src="img/our-team/21.png" alt="">
-                        <div class="img-bg-icon"></div>
-                      </div></a>
-                     <a href="http://localhost/http://www.icomksa.com/sandblasting.php"><h4 style="color:#FF8D33;">Sand Blasting & Painting</h4></a>
-					  
-                        <font face="verdana" color="green">ICOM Offer Complete sandblasting and painting services <a href="http://localhost/http://www.icomksa.com/sandblasting.php" style="color:green; font-face:verdana;"><strong>click more</strong></a></font>
-                    </div>-->
-                 
-                  
-                </div> 
-              </li>
-                         </ul>
-          </div>
-          <!-- Our service -->   
-       </div>
-       <br>
-    <!-- <div class="span2">
-               <a href="#"><img src="img/New folder/AWARD+ICON.png"></a>
-      
-      </div>-->
-      
-      <!-- Our Clients -->
-      <div class="row">
-        <div class="span12">
-          <h3 style="color:#FF8D33;">Our Clients</h3>
-        </div>
-      </div> 
-    
- 
+                    <li class="nav-item">
+                        </a>
+                        <a class="nav-link btn btn-primary" href="./index.html#contactus">
+                            <i class="now-ui-icons tech_mobile"></i>
+                            Contact Us
+                        </a>
+                    </li>
 
-        <ul class="slides">
-          <li>
-		  <marquee direction="down" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-            <div class="row">
-              <div class="span2">
-               
-                    <img src="img/our-clients/1.png" alt="">
-               
-              </div>
-              <div class="span2">
-             
-                    <img src="img/our-clients/2.png" alt="">
-              
-              </div>
-              <div class="span2">
-               
-                    <img src="img/our-clients/3.png" alt="">
-               
-              </div>
-              <div class="span2">
+
+                </ul>
+            </div>
+        </div>
+    </nav>
+    <!-- End Navbar -->
+
+
+
+    <div class="wrapper">
+        <div class="section-space"></div>
+
+        <!-- *********     HOME   *********-->
+        <div class="cd-section" id="home">
+            <div class="header-3">
                 
-                    <img src="img/our-clients/4.png" alt="">
-                
-              </div>
-              <div class="span2">
-                
-                    <img src="img/our-clients/7.png" alt="">
-                
-              </div>
-              <div class="span2">
-               
-                    <img src="img/our-clients/jana.png" alt="">
-                
-              </div>
-            </div>  
-			</marquee>
-          </li>
-          <li>
-		  <marquee direction="down" scrollamount="2" onmouseover="this.stop();" onmouseout="this.start();">
-            <div class="row">
-              <div class="span2">
-                
-                    <img src="img/our-clients/7.png" alt="">
-               
-              </div>
-              <div class="span2">
+                <div id="carouselExampleIndicators" class="carousel slide">
+                    <ol class="carousel-indicators">
+                        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                    </ol>
+                    <div class="carousel-inner" role="listbox">
+                        <div class="carousel-item active">
+                            <div class="page-header header-filter">
+                                <div class="page-header-image" style="background-image: url('assets/image/1.jpg');">
+                                </div>
+                                <div class="container text-left">
+                                    <div class="content-center">
+                                        <div class="row">
+                                            <!-- <div class="col-md-5">
+                                                <div class="iframe-container">
+                                                    <iframe height="250" src="/assets/image/intro.mp4" frameborder="0" allowfullscreen></iframe>
+                                                </div>
+                                            </div> -->
+
+                                            <div class="col-md-6 ml-auto mr-auto text-right">
+                                                <h1 class="title">On the run tour.</h1>
+                                                <h4 class="description ">On the Run Tour: Beyoncé and Jay Z is a 2014
+                                                    concert special which documents the September 12 and 13, 2014, shows
+                                                    of American singers' Beyoncé and Jay-Z joint co-headlining venture
+                                                    On the Run Tour.</h4>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header header-filter">
+                                <div class="page-header-image" style="background-image: url('assets/image/2.jpg');">
+                                </div>
+                                <div class="container">
+                                    <div class="content-center">
+                                        <div class="row">
+                                            <div class="col-md-8 ml-auto mr-auto text-center">
+                                                <h1 class="title">Island of legends.</h1>
+                                                <h4 class="description ">The islands of Malta and Gozo are brilliant for
+                                                    a family holiday, packed with fun places to visit whatever your
+                                                    children’s ages. The islands’ small size means everywhere is within
+                                                    easy reach.</h4>
+                                                <br />
+                                                <h5>Connect with us on:</h5>
+                                                <div class="buttons">
+                                                    <a href="#pablo"
+                                                        class="btn btn-icon btn-neutral btn-danger btn-round mt-2">
+                                                        <i class="fab fa-twitter"></i>
+                                                    </a>
+                                                    <a href="#pablo"
+                                                        class="btn btn-icon btn-neutral btn-danger btn-round mt-2">
+                                                        <i class="fab fa-facebook-square"></i>
+                                                    </a>
+                                                    <a href="#pablo"
+                                                        class="btn btn-icon btn-neutral btn-danger btn-round mt-2">
+                                                        <i class="fab fa-google-plus"></i>
+                                                    </a>
+                                                    <a href="#pablo"
+                                                        class="btn btn-icon btn-neutral btn-danger btn-round  mt-2">
+                                                        <i class="fab fa-instagram"></i>
+                                                    </a>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="page-header header-filter">
+                                <div class="page-header-image" style="background-image: url('assets/img/bg17.jpg');">
+                                </div>
+                                <div class="container">
+                                    <div class="content-center">
+                                        <div class="row">
+                                            <div class="col-md-6 text-left">
+                                                <h1 class="title">Arctic Sea ice.</h1>
+                                                <h4 class="description ">According to the National Oceanic and
+                                                    Atmospheric Administration, Ted Scambos, NSIDC lead scientist, puts
+                                                    the potentially record low maximum sea ice extent this year down to
+                                                    low ice extent in the Pacific
+                                                    and a late drop in ice extent in the Barents Sea.</h4>
+                                                <br />
+
+                                                <div class="buttons">
+                                                    <a href="#pablo" class="btn btn-neutral btn-primary btn-lg mr-1">
+                                                        <i class="now-ui-icons files_single-copy-04"></i> Read More..
+                                                    </a>
+                                                    <a href="#pablo" class="btn btn-primary btn-lg">
+                                                        <i class="now-ui-icons arrows-1_share-66"></i> Subscribe
+                                                    </a>
+                                                </div>
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                        <i class="now-ui-icons arrows-1_minimal-left"></i>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                        <i class="now-ui-icons arrows-1_minimal-right"></i>
+                    </a>
+                </div>
+            </div>
+            <!-- *********    END HEADER 3   *********-->
+        </div>
+        <!-- *********     HOME   *********-->
+
+        <!--*********     ABOUTME      *********-->
+        <div class="cd-section"  id="aboutme">
+            <div class="features-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8">
+                            <h2 class="title">About Me</h2>
+
+                            <div class="info info-horizontal">
+                                <!-- <div class="icon icon-primary icon-circle">
+                                        <i class="now-ui-icons location_world"></i>
+                                    </div> -->
+                                <div class="description">
+                                    <h4 class="info-title">Engr Anis Uz Zaman</h4>
+                                    <p>
+                                        • Saudi professional experience more than 10 years in Project Engineer position,
+                                        experience in the Oil & Gas, hydrocarbon, refinery project engineering
+                                        experience on large projects site engineering
+                                        • Proficient with MS Office Suite of tools.
+                                        • Project Engineering Background in SABIC different Petrochemical plant in Saudi
+                                        Arabia.
+                                        • Projects Engg, process Operations & Maintenance) Project execution
+                                        (Precommissioning, Construction EPC Preventive Maintenance , ,Plant Shutdown &
+                                        Turnaround Maintenance
+                                        • Mechanical & Chemical Engineering Background in SABIC different Petrochemical
+                                        plant more than 10 yrs in Saudi Arabia.,
+                                        Refinery or Petrochemical industry, , projects Engg, (Operations & Maintenance)
+                                        Project execution (Pre-commissioning, Construction EPC Preventive Maintenance ,
+                                        ,Plant Shutdown & Turnaround Maintenance
+                                        • Engineer Project Manager., SABIC wih different affiliates(Petrokemya, Safco,
+                                        SADAF, Ibn Baytar, IBN ZAHR, etc), Saudi ARAMCO long time in Middle East , with
+                                        Saudi Oil Gas Petrochemical Plant Background – Engineering Procurement
+                                        construction , to support Construction works, Fabrication works & Manpower
+                                        Supply Div Project Execution, Completion, Demobilization</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="tablet-container">
+                                <img src="assets/image/anis.jpg" />
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+        <!--*********     ABOUTME      *********-->
+
+
+            <!-- *********     FEATURES 2   *********-->
+            <div class="cd-section"  id="achievement">
+            <div class="features-2 section-image" style="background-image: url('assets/img/bg22.jpg')">
+                <div class="container-fluid">
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="title">Achievement</h2>
+                            <h4 class="description">Through out the jounrey I share with you some of my major
+                                achievements.</h4>
+                        </div>
+                    </div>
+
+                    <div class="row">
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="achIcon icon icon-primary icon-circle">
+                                    <i class="fas fa-user-hard-hat"></i>
+                                </div>
+                                <h4 class="info-title">Safety</h4>
+                                <p class="achievement">7 Million Combined Man hour without disabling &amp; lost  time injuries in
+                                    SADAF/SABIC Shell Group</p>
+                                    <span class="badge badge-primary"> <a id= "seemoretext" href="safety.html" target="_blank">See more</a></span>
+                            </div>
+                        </div>
+
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="achIcon icon icon-danger icon-circle">
+                                    <i class="fas fa-tools"></i>
+                                </div>
+                                <h4 class="info-title">TURN-AROUND Maintenance</h4>
+                                <p class="achievement">SABIC (Ibn Al Baytar) Nation Chem. fertilizer company </p>
+                                <span class="badge badge-primary"> <a id= "seemoretext" href="maintenance.html" target="_blank">See more</a></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="achIcon icon icon-danger icon-circle">
+                                    <i class="fas fa-file-certificate"></i>
+                                </div>
+                                <h4 class="info-title">Certification</h4>
+                                <p class="achievement"> IBB-Safco SABIC, Al Suwaidi Certification for Job Completion.
+                                </p>
+                                <span class="badge badge-primary"> <a id= "seemoretext" href="certification.html" target="_blank">See more</a></span>
+
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <div class="info">
+                                <div class="achIcon icon icon-danger icon-circle">
+                                    <i class="fas fa-award"></i>
+                                </div>
+                                <h4 class="info-title">Award</h4>
+                                <p class="achievement">Int. certifification from Japanese, UK, USA experts engineer for
+                                    Erection set of plant machineries.</p>
+                                    <span class="badge badge-primary"> <a id= "seemoretext" href="award.html" target="_blank">See more</a></span>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            </div>
+            <!-- *********    END FEATURES 2   *********-->
+
+            <!-- *********     Credential   *********-->
+            <div class="cd-section"  id="credentials">
+                    <div class="features-1">
+                <div class="container">
+                        <div class="row">
+                            <div class="col-md-12 mr-auto ml-auto">
+                                <!-- Nav tabs -->
+                                <h2 class="title">Credentials</h2>
+                <div class="card">
+                    <div class="card-header">
+                        <ul class="nav nav-tabs justify-content-center" role="tablist">
+                          <li class="nav-item">
+                            <a class="nav-link active" data-toggle="tab" href="#home" role="tab" aria-selected="true">
+                                <i class="now-ui-icons objects_umbrella-13"></i>
+                                CAREER BACKGROUND
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#profile" role="tab" aria-selected="false">
+                                <i class="now-ui-icons shopping_cart-simple"></i>
+                                MULTIDISCIPLINARY BACKGROUND
+                            </a>
+                          </li>
+                          <li class="nav-item">
+                            <a class="nav-link" data-toggle="tab" href="#messages" role="tab" aria-selected="false">
+                                <i class="now-ui-icons shopping_shop"></i>
+                                FIELD OF INTEREST 
+                            </a>
+                          </li>
+                          
+                        </ul>
+                    </div>
+
+                    <div class="card-body">
+                        <!-- Tab panes -->
+                        <div class="tab-content text-center">
+                            <div class="tab-pane active" id="home" role="tabpanel">
+                                <p>
+                                <ul id="credentialText">
+                                <li>Project Engineering Background in  SABIC different   Petrochemical   plant   in Saudi Arabia.,more    about   10   yrs in  Saudi  Arabia   in the relevant   field Petrochemical industry,  , projects  Engg, process Operations &amp; Maintenance) Project execution (Precommissioning, Construction EPC Preventive Maintenance , ,Plant Shutdown & Turnaround Maintenance Hydro Jetting, Hydro Torquing and Chemical Cleaning, and Talent Acquisition Support Services.</l>
+                                  <li>Petrochemical   Plant wih  different  affiliates(Petrokemya, Safco, SADAF, Ibn Baytar, IBN ZAHR, etc),  Saudi ARAMCO   long time in Middle East , with Saudi Oil Gas Petrochemical Plant backgroun – engineering procurement  construction  ,  to  support   Construction works</l>
+                                  
+                                  </ul>  
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="profile" role="tabpanel">
+                                <p>
+                                    <ul id="credentialText">
+                                <li>Varied industry experience in Petrochemical , project engineer (Operations & Maintenance), in dynamic management.large  chemical  Manufacturing plant  in Saudi  Sabic   chemical/ petrochemical  plant</li>
+                                <li>Support   the  co,    Fabrication works & Manpower Supply Div Project Execution, Completion, Demobilization</li>
+                                <li>Long time in Middle East , with Saudi Oil Gas Petrochemical Plant backgroun – engineering procurement  construction  ,  to  support   Construction works, Fabrication works & Manpower Supply Div Project Execution, Completion, Demobilization</li>
+                                    </ul>
+                                </p>
+                            </div>
+                            <div class="tab-pane" id="messages" role="tabpanel">
+                                <p>
+                                    <ul id="credentialText">
+                                    <li>Mechanical  & Chemical  Engineering Background   in  SABIC   different   Petrochemical   plant  more than 10 yrs   in Saudi Arabia.,
+                                    Refinery or Petrochemical industry,  , projects  Engg,  (Operations & Maintenance) Project execution (Pre-commissioning, Construction EPC Preventive Maintenance , ,Plant Shutdown & Turnaround Maintenance</li>
+                                </ul>
+                                </p>
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+            </div>
+            </div>
+            </div>
             
-                    <img src="img/our-clients/8.png" alt="">
-               
-              </div>
-              <div class="span2">
-             
-                    <img src="img/our-clients/sipchem.png" alt="">
-               
-              </div>
-              <div class="span2">
-                
-                    <img src="img/our-clients/8.png" alt="">
-                
-              </div>
-              
-              <div class="span2">
-               
-                    <img src="img/our-clients/2.png" alt="">
-               
-              </div>
-              <div class="span2">
-               
-                    <img src="img/our-clients/KJO-ICOM.png" alt="">
-               
-              </div>
-            </div>  
-			</marquee>
-          </li>
-        </ul>
-		</DIV>
+            <!-- *********     Credential   *********-->
             
-      <!-- Our Clients End -->
-      
-      <div class="space30"></div> 
-       
-    </div>
-  </div>
-  <!-- Content End -->
-  
-                  
-  <!-- Footer -->
-  <div data-tags="contact-us">
-    <footer id="footer">
-    <div class="container">
-      <div class="row">
-        <div class="span6">
-        <h3 style="color:#FF8D33;">LEAVE US A MESSAGE</h3>
-        <div>         
-          <form class="form-main" method="post" action="#" id="form" name="form">
-           <ul>
-   
-        <input type="text" name="vname"  id="vname" placeholder="Name" required />
-    
-    
-        <input type="email" name="vemail" placeholder="Email" required />
-    
-        <textarea name="msg" placeholder="Message" required ></textarea>
-    
-   
-	    <button type="submit" id="submit" name="submit" class="btn f-right">Send Message <i class="icon-ok"></i></button>
-    
-       </ul>
-          </form>
-		<p style="font-size:20px;"></p>
-        </div>
-        </div>
- 
-        <div class="span5 offset1">
-          <h3 style="color:#FF8D33;">GET IN TOUCH</h3>
-		  
-		  <p>  <font face="verdana" color="white" size="4px">Industrial Cadre For Operation and Maintenance (ICOM)</font></p>
-       <font face="verdana" size="3px"> PO Box-30111<br>
-          Jubail - 31951 Saudi Arabia </font><br><br>
-          
-         <font face="verdana" size="3px">
-          
-          <i class="icon-phone"></i>+966 13 367 2530/2531<br>
-		    <i class="fa fa-paper-plane"></i>+966 13 362 7571<br> 
-          <i class="icon-envelope"></i><a href="mailto:info@icomksa.com">info@icomksa.com</a><br>
-          <i class="icon-home"></i><a href="http://www.icomksa.com">www.icomksa.com</a>
-          </font>
-           <div class="row space20"></div>  
-          <a href="#" class="social-network sn2 facebook"></a> 
-        </div>
-      </div>
-      <div class="row">
-        <div class="span6">
-          <div class="logo-footer">
-            Industrial Cadre for Operation and Maintenance  - <a href="http://www.icomksa.com">ICOM</a>
-          </div>                       
-        </div>
-        <div class="span6 right">
-          &copy; 2015. All rights reserved.
-        </div>
-      </div>
+            <!-- *********    TESTIMONIALS 2  *********-->
+            <div class="cd-section" id="testimonials">
+                <div class="testimonials-2">
 
-    </div>
-  </footer>
-   </div>
-  <!-- Footer End -->
+                    <div class="container">
 
-  <!-- JavaScripts -->
-  <script type="text/javascript" src="js/jquery-1.8.3.min.js"></script> 
-  <script type="text/javascript" src="js/bootstrap.min.js"></script>  
-  <script type="text/javascript" src="js/functions.js"></script>
-  <script type="text/javascript" defer src="js/jquery.flexslider.js"></script>
-  
+                        <div class="row">
+                            <div class="col-md-12">
+                                <div class="tech-slideshow">
+                                    <div class="mover-1"></div>
+                                    <div class="mover-2"></div>
+                                  </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- *********    END TESTIMONIALS 2   *********-->
+
+            <div class="cd-section" id="contactus">
+
+                <!-- *********    CONTACT US 1  *********-->
+                <div class="contactus-1 section-image" style="background-image: url('assets/img/contact1.jpg')">
+
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <h2 class="title">Get in Touch</h2>
+                                <h4 class="description">Anis Uz Zaman
+                                    <sup>
+                                        <i>-M. Sc.(chemical engg. tech)</i>
+                                    </sup> <br>
+                                    Chemical Engr &amp; Project Manager <br>
+                                    Saudi Petrochemical Sites(SABIC)
+                                </h4>
+                                <div class="info info-horizontal">
+                                    <div class="icon icon-primary">
+                                        <i class="now-ui-icons location_pin"></i>
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title">SABIC with different affiliates</h4>
+                                       <div class="description">
+                                            <ul>
+                                            <li>Arabian Petrochemical Co, (PETROKEMYA,</li> 
+                                            <li>Saudi Perochemical Co (SADAF)</li>
+                                            <li>National Chemical Fertilizer Co( IBN BAYTAR--SAFCO)</li>
+                                            <li>Saudi ARAMCO</li> 
+                                            <li>Saudi European Petrochemical Co (IBNZAHR),</li>
+                                        </ul>
+                                    </div>
+
+
+
+                                       
+                                    </div>
+                                </div>
+                                <div class="info info-horizontal">
+                                    <div class="icon icon-primary">
+                                        <i class="now-ui-icons tech_mobile"></i>
+                                    </div>
+                                    <div class="description">
+                                        <h4 class="info-title">Give us a ring</h4>
+                                        <p class="description"> Michael Jordan<br> +40 762 321 762<br> Mon - Fri,
+                                            8:00-22:00
+                                        </p>
+                                    </div>
+                                </div>
+
+                            </div>
+                            <div class="col-md-5 ml-auto mr-auto">
+                                <div class="card card-contact card-raised">
+                                    <form role="form" id="contact-form1" method="post">
+                                        <div class="card-header text-center">
+                                            <h4 class="card-title">Contact Us</h4>
+                                        </div>
+                                        <div class="card-body">
+                                            <script charset="utf-8" type="text/javascript"
+                                                src="//js.hsforms.net/forms/shell.js"></script>
+                                            <script>
+                                                hbspt.forms.create({
+                                                    portalId: "6969061",
+                                                    formId: "b0c76099-1043-45c3-adea-dcfc3284c498"
+                                                });
+                                            </script>
+
+                                        </div>
+
+                                    </form>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- *********    END CONTACT US 1   *********-->
+            </div>
+
+            <footer class="footer">
+                <div class=" container ">
+                    <nav>
+                        <ul>
+                            <li>
+                                <a href="https://www.creative-tim.com">
+                                    Email Me
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://presentation.creative-tim.com">
+                                    WhatsApp Me
+                                </a>
+                            </li>
+                            <li>
+                                <a href="http://blog.creative-tim.com">
+                                    More
+                                </a>
+                            </li>
+                        </ul>
+                    </nav>
+                    <div class="copyright" id="copyright">
+                        &copy;
+                        <script>
+                            document.getElementById('copyright').appendChild(document.createTextNode(new Date()
+                                .getFullYear()))
+                        </script>, Portfolio by <a href="https://www.engraz.com" target="_blank">Engr. Anis Uz Zaman</a>.
+                    </div>
+                </div>
+            </footer>
+
+        </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <!--   Core JS Files   -->
+        <script src="./assets/js/core/jquery.min.js" type="text/javascript"></script>
+        <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+        <script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+
+        <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+        <script src="./assets/js/plugins/bootstrap-switch.js"></script>
+
+        <!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+        <script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+
+        <!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+        <script src="./assets/js/plugins/moment.min.js"></script>
+
+        <!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+        <script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+        <!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+        <script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+
+        <!--  Plugin for the DateTimePicker, full documentation here: https://eonasdan.github.io/bootstrap-datetimepicker/ -->
+        <script src="./assets/js/plugins/bootstrap-datetimepicker.js" type="text/javascript"></script>
+
+
+
+        <!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+        <script src="./assets/js/now-ui-kit.min.js?v=1.3.1" type="text/javascript"></script>
+        <!-- Sharrre libray -->
+        <script src="./assets/demo/jquery.sharrre.js"></script>
+
+    
+
+        <script>
+            $(document).ready(function () {
+                // the body of this function is in assets/js/now-ui-kit.js
+                nowuiKit.initContactUsMap();
+            });
+        </script>
+
+        <!--Start of Tawk.to Script-->
+        <script type="text/javascript">
+            var Tawk_API = Tawk_API || {},
+                Tawk_LoadStart = new Date();
+            (function () {
+                var s1 = document.createElement("script"),
+                    s0 = document.getElementsByTagName("script")[0];
+                s1.async = true;
+                s1.src = 'https://embed.tawk.to/5e149fb17e39ea1242a377a6/default';
+                s1.charset = 'UTF-8';
+                s1.setAttribute('crossorigin', '*');
+                s0.parentNode.insertBefore(s1, s0);
+            })();
+        </script>
+        <!--End of Tawk.to Script-->
+
 </body>
+
 </html>
-  
